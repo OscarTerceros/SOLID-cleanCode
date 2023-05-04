@@ -38,3 +38,21 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </ul>
   </div>
 `
+
+// Nombres pronunciables y expresivos
+const numberOfUnits:number = 53;  //bad const n = 53; 
+const tax:number = 0.15;  // const t = 0.15;
+const category:string = 'T-shirt';  // const cat = 'T-shirt';
+const birthDate: Date = new Date('August 15, 1965 00:00:00'); //const ddmmyyyy = new Date('August 15, 1965 00:00:00');
+
+// Ausencia de información técnica en nombres
+
+// Bad
+class abstractUser { };
+class userMixin { };
+class userImplementation { };
+interface userInterface { };
+
+// Best
+class user { };
+interface user{ };
