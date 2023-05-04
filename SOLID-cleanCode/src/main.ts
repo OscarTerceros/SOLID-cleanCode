@@ -36,23 +36,48 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <li>Nuestro código tiene que ser simple y directo, deberia leerse con la misma facilidad que un texto bien escrito.</li>
       <li>Programar es el arte de decirle a otro humano lo que quieres que la computadora haga.</li>
     </ul>
+    <b>Nombres según el tipo de dato</b>
+    <ol>
+      <li>Arreglos - Arrays</li>
+        <ul>
+          <li>Se debe pluralizar el nombre</li>
+            <code>const fruitNames = ['manzana', 'pera', 'platano'];</code>
+        </ul>
+      <li>Booleanos - Booleans</li>
+        <ul>
+          <li>Se debe usar prefijos como: is, can, has</li>
+          <li>Se procura que el significado del nombre esté siempre en positivo</li>
+            <code>          
+              const isOpen = true;</br>
+              const canWrite = true;</br>
+              const hasFruit = false;</br>
+              const isActive = true;</br>
+              const hasValues = false;</br>
+              const isEmpty = true;</br>
+            </code>
+        </ul>
+      <li>Números - Numbers</li>
+        <ul>
+          <li>Los nombres desigandos para los números deben ser más declarativos</li>
+          <code>
+            const maxFruits = 5;</br>
+            const minFruits = 1;</br>
+            const totalFruits = 3;</br>
+            const totalOfCars = 5;</br>
+          </code>
+        </ul>
+      <li>funciones - functions</li>
+        <ul>
+          <li>Los nombres de las funciones deben representar acciones</li>
+          <li>Utilizar el vervo que representa la acción seguido de un sustantivo</li>
+          <li>Deben ser descriptivos y concisos</li>
+          <code>
+            createUser();</br>
+            updateUser();</br>
+            sendEmail();</br>
+            const totalOfCars = 5;</br>
+          </code>
+        </ul>
+    </ol>
   </div>
 `
-
-// Nombres pronunciables y expresivos
-const numberOfUnits:number = 53;  //bad const n = 53; 
-const tax:number = 0.15;  // const t = 0.15;
-const category:string = 'T-shirt';  // const cat = 'T-shirt';
-const birthDate: Date = new Date('August 15, 1965 00:00:00'); //const ddmmyyyy = new Date('August 15, 1965 00:00:00');
-
-// Ausencia de información técnica en nombres
-
-// Bad
-class abstractUser { };
-class userMixin { };
-class userImplementation { };
-interface userInterface { };
-
-// Best
-class user { };
-interface user{ };
