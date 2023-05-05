@@ -78,6 +78,21 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             const totalOfCars = 5;</br>
           </code>
         </ul>
+      <li>Clases - class</li>
+        <ul>
+          <li>Los nombres de las clases deben tener nombres formados por un sustantivo o frases de un sustantivo</li>
+          <li>Se debe tratar de que no tengan nombres genéricos</li>
+          <li>Usar UpperCamelCase</li>
+          <li>Preguntas para determinar si es un buen nombre</li>
+          <ol>
+            <li>¿Qué hace exactamente la clase?</li>
+            <li>¿Cómo exactamente esta clase realiza cierta tarea?</li>
+            <li>¿Hay algo especifico sobre su ubicación?</li>
+          </ol>
+          <code>
+            class SpecialMonterManager {};</br>
+          </code>
+        </ul>
     </ol>
   </div>
 `
