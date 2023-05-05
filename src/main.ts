@@ -94,5 +94,15 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
           </code>
         </ul>
     </ol>
+
+    <b>Funciones</b>
+    <p>Sabemos que estamos desarrollando código limpio cuando cada función hace exactamente lo que su nombre indica.</p>
+    <ul>
+      <li>Las funciones deben realizar una unica tarea</li>
+      <li>Una función debe tener máximo tres parámetros</li>
+      <li>Los parámetros son datos requeridos al momento de realizar la definición de la función</li>
+      <li>Los argumentos son datos requeridos que son enviamos al momento de usar la función </li>
+      <li></li>
+    </ul>
   </div>
 `
