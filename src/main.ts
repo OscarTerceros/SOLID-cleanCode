@@ -100,9 +100,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <ul>
       <li>Las funciones deben realizar una unica tarea</li>
       <li>Una función debe tener máximo tres parámetros</li>
-      <li>Los parámetros son datos requeridos al momento de realizar la definición de la función</li>
-      <li>Los argumentos son datos requeridos que son enviamos al momento de usar la función </li>
-      <li></li>
+      <li>Los parámetros, son datos requeridos al momento de realizar la definición de la función</li>
+      <li>Los argumentos, son datos requeridos que son enviamos al momento de usar la función </li>
+      <li>Si se está utilizando TypeScript se recomienda tilizar interfaces para la definicion de tipos de datos</li>
     </ul>
   </div>
 `
