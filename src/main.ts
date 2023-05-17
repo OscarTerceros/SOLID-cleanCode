@@ -103,6 +103,18 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <li>Los parámetros, son datos requeridos al momento de realizar la definición de la función</li>
       <li>Los argumentos, son datos requeridos que son enviamos al momento de usar la función </li>
       <li>Si se está utilizando TypeScript se recomienda tilizar interfaces para la definicion de tipos de datos</li>
+      <li>
+        <b>Otras recomendaciones</b>
+        <ul>
+          <li>La simplicidad es fundamental</li>
+          <li>Funciones de tamaño reducido</li>
+          <li>Funciones de una sola línea sin causar complejidad</li>
+          <li>Menos de 20 líneas</li>
+          <li>Evitar el uso del else</li>
+          <li>Priorizar el uso de la condicional ternaria</li>
+        </ul>
+      </li>
     </ul>
+    
   </div>
 `
